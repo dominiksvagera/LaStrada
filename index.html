@@ -12,20 +12,18 @@
        
     </header>
     
-    <main class="mx-auto">
-    <section class="bg-[url('/main.jpg')] w-full h-[80vh] bg-no-repeat bg-center">
-            <div class="flex flex-col items-center justify-between">
-                <h1 class="text-3xl text-bold m-4">DENNÍ MENU, PIZZA A JINÉ DOBROTY</h1>
-                
-                <a class="bg-red-400 border rounded-2xl m-4 p-4" href="" target="_blank">VÍCE</a>
+
+    <section class="flex items-center justify-center bg-[url('/main.jpg')] w-full h-[80vh] bg-no-repeat bg-center">
+            <div class="flex flex-col justify-center items-center gap-4">
+                <h1 class="text-3xl text-bold ">DENNÍ MENU, PIZZA A JINÉ DOBROTY</h1>
+                <a class="bg-red-400 rounded-2xl p-4" href="" target="_blank">VÍCE</a>
             </div>
-                
     </section>
-    </main>
+
     
     
-    <section class="font-serif">
-        <h3 class="flex justify-center text-xl mx-auto">Restaurant La Strada Ostrava - Poruba</h3>
+    <section class="font-serif m-6">
+        <h3 class="flex justify-center text-xl m-6">Restaurant La Strada Ostrava - Poruba</h3>
        <ul class="grid grid-cols-1 lg:grid-cols-4 h-full w-full px-8 py-3">
         <li class="w-full h-full text-center">
             <h4>VYHRAJTE VESPU</h4>
@@ -63,18 +61,21 @@
     </section>
     
     <nav class="grid grid-cols-1 lg:grid-cols-4 h-96 *:h-96">
-        <a href="_blank" class="flex items-center justify-center bg-[url('/menu_item.jpg')] bg-no-repeat bg-center bg-cover relative">
+        <a href="_blank" class="group flex items-center justify-center bg-[url('/menu_item.jpg')] bg-no-repeat bg-center bg-cover relative">
             <p class="text-4xl text-white underline z-10">Denní menu</p>
-            <div class="h-full w-full bg-red-400 opacity-50 absolute top-0"></div>
+            <div class="h-full w-full bg-red-400 opacity-0 absolute group-hover:opacity-50 top-0 transition hover:duration-700 ease-in-out"></div>
         </a>
-        <a href="_blank" class="flex items-center justify-center bg-[url('/pizza.jpg')] bg-no-repeat bg-center bg-cover">
-            <p class="text-4xl text-white underline">Naše pizza</p>
+        <a href="_blank" class="group flex items-center justify-center bg-[url('/pizza.jpg')] bg-no-repeat bg-center bg-cover relative">
+            <p class="text-4xl text-white underline z-10">Naše pizza</p>
+            <div class="h-full w-full bg-red-400 opacity-0 absolute group-hover:opacity-50 top-0 transition hover:duration-700 ease-in-out"></div>
         </a>
-        <a href="_blank" class="flex items-center justify-center bg-[url('/drink.jpg')] bg-no-repeat bg-center bg-cover">
-            <p class="text-4xl text-white underline">Oblíbené drinky</p>
+        <a href="_blank" class="group flex items-center justify-center bg-[url('/drink.jpg')] bg-no-repeat bg-center bg-cover relative">
+            <p class="text-4xl text-white underline z-10">Oblíbené drinky</p>
+            <div class="h-full w-full bg-red-400 opacity-0 absolute group-hover:opacity-50 top-0 transition hover:duration-700 ease-in-out"></div>
         </a>
-        <a href="_blank" class="flex items-center justify-center bg-[url('/zelenina.jpg')] bg-no-repeat bg-center bg-cover">
-            <p class="text-4xl text-white underline">Jídelní lístek</p>
+        <a href="_blank" class="group flex items-center justify-center bg-[url('/zelenina.jpg')] bg-no-repeat bg-center bg-cover relative">
+            <p class="text-4xl text-white underline z-10">Jídelní lístek</p>
+            <div class="h-full w-full bg-red-400 opacity-0 absolute group-hover:opacity-50 top-0 transition hover:duration-700 ease-in-out"></div>
         </a>  
     </nav>
     
