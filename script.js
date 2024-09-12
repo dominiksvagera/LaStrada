@@ -27,3 +27,16 @@ var nazev2 = 'Hello';
 
 console.log(nazev2);
 
+
+let button = document.getElementById('button');
+
+let links = document.getElementsByTagName('a');
+
+
+
+console.log(button);
+console.log(links);
+console.log(links[2]);
+
+
+
